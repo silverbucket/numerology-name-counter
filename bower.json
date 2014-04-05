@@ -1,0 +1,22 @@
+{
+  "name": "numerology-name-counter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/silverbucket/numerology-name-counter",
+  "authors": [
+    "Nick Jennings <nick@silverbucket.net>"
+  ],
+  "license": "AGPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/res/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic-ui": "~0.15.4",
+    "watch.js": "~0.1.0"
+  }
+}

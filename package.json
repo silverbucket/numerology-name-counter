@@ -1,0 +1,22 @@
+{
+  "name": "numerology-name-counter",
+  "version": "0.0.1",
+  "description": "numerolofy-name-counter =======================",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node_modules/.bin/jaribu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/silverbucket/numerology-name-counter.git"
+  },
+  "author": "Nick Jennings <nick@silverbucket.net>",
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/silverbucket/numerology-name-counter/issues"
+  },
+  "homepage": "https://github.com/silverbucket/numerology-name-counter",
+  "dependencies": {
+    "jaribu": "^0.1.9"
+  }
+}
