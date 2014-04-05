@@ -1,0 +1,1 @@
+var nnc = require(__dirname + '/nnc');
