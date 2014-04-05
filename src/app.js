@@ -1,1 +1,1 @@
-var nnc = require(__dirname + '/nnc');
+var nnc = require('./nnc');
