@@ -30,6 +30,7 @@ var CHAR_MAP = {
 var hebrew = function (word) {
   var total = 0;
   for (var i = 0, len = word.length; i < len; i = i + 1) {
+    if (word[i] === ' ') { return total; }
     total = total + CHAR_MAP[word.charAt(i).toLowerCase()];
   }
   return total;

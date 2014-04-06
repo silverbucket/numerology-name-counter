@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "semantic-ui": "~0.15.4",
-    "watch.js": "~0.1.0"
+    "watch.js": "~0.1.0",
+    "observe-shim": "~0.4.1"
   }
 }

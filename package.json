@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node_modules/.bin/jaribu"
   },
+  "browser": {
+    "watchjs": "./www/res/vendor/watch.js/watch.min.js",
+    "onserve-shim": "./www/res/vendor/watch.js/watch.min.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/silverbucket/numerology-name-counter.git"
@@ -17,6 +21,8 @@
   },
   "homepage": "https://github.com/silverbucket/numerology-name-counter",
   "dependencies": {
-    "jaribu": "^0.1.9"
+    "jaribu": "^0.1.9",
+    "watch.js": "0.0.5",
+    "observe-shim": "^0.4.1"
   }
 }

@@ -26,6 +26,20 @@ define(['require'], function (require) {
         }
       },
       {
+        desc: '#nnc.hebrew - cat hunter',
+        run: function (env, test) {
+          var total = env.nnc.hebrew('cat hunter');
+          test.assert(total, 24);
+        }
+      },
+      {
+        desc: '#nnc.hebrew - cat2',
+        run: function (env, test) {
+          var total = env.nnc.hebrew('cat');
+          test.assert(total, 24);
+        }
+      },
+      {
         desc: '#nnc.hebrew - supercalafragalisticexpialadoshus',
         run: function (env, test) {
           var total = env.nnc.hebrew('supercalafragalisticexpialadoshus');
